@@ -18,16 +18,15 @@
     <section class="page-header">
       <h1 class="project-name">Sakhdlam.GitHub.io</h1>
       <h2 class="project-tagline">Testing</h2>
-      <div class="icon_container" onclick="menucontroller.showMenu();">
+      <div class="icon_container" onclick="menucontroller.showMenu();" aria-controls="menu" role="menubar">
         <img class="menu-icon" src="images/menu_icon.png" />
       </div>
-      <div class="menu" role="dialog" aria-live="assertive">
-        <ul role="menu">
-          <li class="menuitem" role="menuitem">first element</li>
-          <li "menuitem" role="menuitem">second element</li>
-          <li "menuitem" role="menuitem">third element</li>
-        </ul>
-      </div>
+      
+      <ul id="menu" role="menu" class="menu">
+      <li class="menuitem" role="menuitem">first element</li>
+        <li "menuitem" role="menuitem">second element</li>
+        <li "menuitem" role="menuitem">third element</li>
+      </ul>
     </section>
   </body>
 </html>
