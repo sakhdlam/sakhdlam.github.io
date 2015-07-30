@@ -1,7 +1,6 @@
 .menu {
   width: 200px;
   list-style-type: none;
-  visibility: hidden;
 }
 
 .menuItem {
@@ -21,6 +20,9 @@
   height: 20px;
   background-color: blue;
   cursor: pointer;
+}
+.menu-container {
+  visibility: hidden;
 }
 
 .menu.show-menu, .menu-container.show-menu {
