@@ -23,6 +23,6 @@
   cursor: pointer;
 }
 
-.menu.show-menu {
+.menu.show-menu, .menu-container.show-menu {
   visibility: visible;
 }
