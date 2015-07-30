@@ -6,10 +6,5 @@ MenuController = function() {
  */
 MenuController.prototype.showMenu = function() {
   this.menu = document.getElementsByClassName('menu')[0];
-  debugger;
-  if (!this.menu.style.visibility) {
-    this.menu.style.visibility = "visible";
-  } else {
-    this.menu.style.visibility = "hidden"
-  }
+  this.menu.classList.toggle('show-menu')
 }
