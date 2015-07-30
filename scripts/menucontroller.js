@@ -7,5 +7,5 @@ MenuController = function() {
  */
 MenuController.prototype.showMenu = function() {
   console.log('i am here');
-  menu.style.visibility = "visible";
+  this.menu.style.visibility = "visible";
 }
