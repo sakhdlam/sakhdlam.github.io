@@ -1,4 +1,5 @@
 MenuController = function() {
+  debugger;
   this.menu = document.getElementsByClassName('menu')[0];
 }
 
