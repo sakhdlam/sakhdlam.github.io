@@ -1,5 +1,5 @@
 MenuController = function() {
-  this.menu = document.getElementsByClassName('menu')[0];
+  this.menu = document.getElementsByClassName('menu');
 }
 
 /**
@@ -7,5 +7,5 @@ MenuController = function() {
  */
 MenuController.prototype.showMenu = function() {
   console.log('i am here');
-  this.menu.style.visibility = "visible";
+  this.menu[0].style.visibility = "visible";
 }
