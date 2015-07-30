@@ -22,3 +22,8 @@
   background-color: blue;
   cursor: pointer;
 }
+
+.menu.show-menu {
+  visibility: visible;
+}
+}
