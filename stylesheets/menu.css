@@ -8,5 +8,10 @@
   margin: 0 5px;
   cursor: pointer;
   text-align: left;
-  
+}
+
+.menu-icon {
+  width: 20px;
+  height: 16px;
+  background-color: blue;
 }
