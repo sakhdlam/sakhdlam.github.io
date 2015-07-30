@@ -1,6 +1,7 @@
 .menu {
   width: 200px;
   list-style-type: none;
+  visibility: hidden;
 }
 
 .menuItem {
