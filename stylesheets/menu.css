@@ -1,6 +1,7 @@
 .menu {
   width: 200px;
   background-color: blue;
+  list-style-type: none;
 }
 
 .menuItem {
