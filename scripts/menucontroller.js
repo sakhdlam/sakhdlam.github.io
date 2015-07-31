@@ -7,6 +7,6 @@ MenuController = function() {
 MenuController.prototype.showMenu = function() {
   this.menu = document.getElementsByClassName('menu-container')[0];
   this.menu.classList.toggle('show-menu');
-  this.menu.focus();
-  document.setAttribute("aria-activedescendant", "menu");
+  this.menu.children[0].focus();
+  this.menu.setAttribute("aria-activedescendant", this.menu.children[0]);
 }
